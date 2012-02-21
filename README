@@ -7,6 +7,8 @@ testapps - SimpleClient and SimpleServer for testing
 lib - the framework and namebound client
 src - the Cinder implementation
 
+REMEMBER: To add a copy phase to your build that includes the Syphon framework.
+
 libcinder.org
 syphon.v002.info/
 
