@@ -2,12 +2,21 @@
 Cinder-Syphon - An implementation of the Syphon framework for Cinder
 ===========================
 
-example - contains a simple Syphon example
-testapps - SimpleClient and SimpleServer for testing
+example-Basic - contains a simple Syphon example
+example-SyphonServerDirectory - a server directory example
 lib - the framework and namebound client
 src - the Cinder implementation
 
-REMEMBER: To add a copy phase to your build that includes the Syphon framework.
+Requires Mac OS X 10.7+ and Cinder 0.8.5
+
+To add Syphon to your project:
+
+ - Drag the Cinder-Syphon blocks folder into your project (like any other Cinder block)
+ - Add a Copy Files build phase to new projects to copy the Syphon framework (in the /lib folder) into the Frameworks folder of the built product.
+
+The included examples demonstrate these steps.
+
+Use any Syphon-enabled application to send or receive frames. You can use the [Syphon Demo Apps](http://code.google.com/p/syphon-implementations/downloads/detail?name=Syphon%20Demo%20Apps%20Public%20Beta%202.dmg) to test functionality.
 
 libcinder.org
 syphon.v002.info/

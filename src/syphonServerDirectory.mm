@@ -35,6 +35,8 @@ void syphonServerDirectory::setup(){
     if(!bSetup){
         bSetup = true;
         addObservers();
+        //don't have to do this in OF.  Not sure what's different in Cinder.
+        refresh(true);
     }
 }
 

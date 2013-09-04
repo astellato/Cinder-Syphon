@@ -42,16 +42,31 @@ void SyphonServerDirectoryApp::prepareSettings( Settings *settings )
 
 void SyphonServerDirectoryApp::setup()
 {
-	dir.setup();
-    client.setup();
-    
-    //input.getSwipeSignal()->connect(bind(&CocoaDelegateApp::onSwipe, this, std::placeholders::_1));
     dir.getServerAnnouncedSignal()->connect(bind(&SyphonServerDirectoryApp::serverAnnounced, this, std::placeholders::_1));
     dir.getServerRetiredSignal()->connect(bind(&SyphonServerDirectoryApp::serverRetired, this, std::placeholders::_1));
     
-    dirIdx = -1;
+	dir.setup();
+    client.setup();
+    
     serverName = "SyphonServerDirectory";
     appName = "Example";
+    
+    if(dir.size() > 0){
+        dirIdx = 0;
+        client.set(dir.getDescription(dirIdx));
+        client.bind();
+        serverName = client.getServerName();
+        appName = client.getApplicationName();
+        
+        if(serverName == ""){
+            serverName = "null";
+        }
+        if(appName == ""){
+            appName = "null";
+        }
+    } else {
+        dirIdx = -1;
+    }
 }
 
 void SyphonServerDirectoryApp::serverAnnounced(vector<syphonServerDescription> _servers){
