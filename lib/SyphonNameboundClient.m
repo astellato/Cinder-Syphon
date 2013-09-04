@@ -2,7 +2,7 @@
     SyphonNameboundClient.m
 	Syphon (Implementations)
 	
-    Copyright 2010 bangnoise (Tom Butterworth) & vade (Anton Marini).
+    Copyright 2010-2011 bangnoise (Tom Butterworth) & vade (Anton Marini).
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
@@ -40,6 +40,7 @@
 	if (self)
 	{
 		_lock = OS_SPINLOCK_INIT;
+        _searchPending = YES;
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleServerAnnounce:) name:SyphonServerAnnounceNotification object:nil];
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleServerUpdate:) name:SyphonServerUpdateNotification object:nil];
 	}
@@ -175,8 +176,7 @@
 		searchApp = nil;
 	}
 
-	if ((searchName != nil || searchApp != nil)
-		&& (!searchName || [[description objectForKey:SyphonServerDescriptionNameKey] isEqualToString:searchName])
+	if ((!searchName || [[description objectForKey:SyphonServerDescriptionNameKey] isEqualToString:searchName])
 		&& (!searchApp || [[description objectForKey:SyphonServerDescriptionAppNameKey] isEqualToString:searchApp]))
 	{
 			return YES;
@@ -189,33 +189,34 @@
 	SyphonClient *newClient = nil;
 	
 	if (!isLocked) OSSpinLockLock(&_lock);
-	if ([_name length] > 0 || [_appname length] > 0)
-	{
-		NSArray *matches = [[SyphonServerDirectory sharedDirectory] serversMatchingName:_name appName:_appname];
-	
-		if ([matches count] != 0)
-		{
-			NSString *current = [_client.serverDescription objectForKey:SyphonServerDescriptionUUIDKey];
-			NSString *found = [[matches lastObject] objectForKey:SyphonServerDescriptionUUIDKey];
-			if (found && [current isEqualToString:found])
-			{
-				newClient = [_client retain];
-			}
-			else
-			{
-				newClient = [[SyphonClient alloc] initWithServerDescription:[matches lastObject] options:nil newFrameHandler:nil];
-			}
-		}
-	}
+    
+    NSArray *matches = [[SyphonServerDirectory sharedDirectory] serversMatchingName:_name appName:_appname];
+
+    if ([matches count] != 0)
+    {
+        NSString *current = [_client.serverDescription objectForKey:SyphonServerDescriptionUUIDKey];
+        NSString *found = [[matches lastObject] objectForKey:SyphonServerDescriptionUUIDKey];
+        if (found && [current isEqualToString:found])
+        {
+            newClient = [_client retain];
+        }
+        else
+        {
+            newClient = [[SyphonClient alloc] initWithServerDescription:[matches lastObject] options:nil newFrameHandler:nil];
+        }
+    }
 	[self setClient:newClient havingLock:YES];
-	if (!isLocked) OSSpinLockUnlock(&_lock);
-	[newClient release];
+	
+    if (!isLocked) OSSpinLockUnlock(&_lock);
+	
+    [newClient release];
 }
 
 - (void)handleServerAnnounce:(NSNotification *)notification
 {
 	NSDictionary *newInfo = [notification object];
-	if (![self parametersMatchDescription:[_client serverDescription]]
+    // If we don't have a client, or our current client doesn't match our parameters any more
+	if ((_client == nil || ![self parametersMatchDescription:[_client serverDescription]])
 		&& [self parametersMatchDescription:newInfo])
 	{
 		SyphonClient *newClient = [[SyphonClient alloc] initWithServerDescription:newInfo options:nil newFrameHandler:nil];

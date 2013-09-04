@@ -32,3 +32,4 @@
 #include "cinder/app/AppBasic.h"
 #include "syphonClient.h"
 #include "syphonServer.h"
+#include "syphonServerDirectory.h"

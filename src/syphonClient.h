@@ -31,6 +31,7 @@
 
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/Texture.h"
+#include "syphonServerDirectory.h"
 
 class syphonClient {
 	public:
@@ -39,8 +40,11 @@ class syphonClient {
 	
 	void setup();
 	
-	void setApplicationName(std::string appName);
-    void setServerName(std::string serverName);
+    void set(syphonServerDescription _server);
+    void set(std::string _serverName, std::string _appName);
+    
+	void setApplicationName(std::string _appName);
+    void setServerName(std::string _serverName);
 	
     void bind();
     void unbind();
@@ -49,13 +53,21 @@ class syphonClient {
 	void draw(ci::Vec2f origin);
     void draw(float x, float y, float w, float h);
     void draw(float x, float y);
+    //draw with bounds
+    
+    int getWidth();
+    int getHeight();
+    ci::Vec2i getSize();
+    
+    std::string& getApplicationName();
+    std::string& getServerName();
     
 protected:
 
 	void* mClient;
     void* latestImage;
-	ci::gl::Texture *mTex;
+	ci::gl::TextureRef mTex;
 	int width, height;
 	bool bSetup;
-	std::string name;
+	std::string appName, serverName;
 };

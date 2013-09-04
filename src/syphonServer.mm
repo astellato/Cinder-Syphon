@@ -88,12 +88,12 @@ std::string syphonServer::getName()
 
 void syphonServer::publishScreen()
 {
-	ci::gl::Texture mTex =  ci::gl::Texture(ci::app::copyWindowSurface());
-	this->publishTexture(&mTex);
+	ci::gl::TextureRef mTex =  ci::gl::Texture::create(ci::app::copyWindowSurface());
+	this->publishTexture(mTex);
 }
 
 
-void syphonServer::publishTexture(ci::gl::Texture* inputTexture)
+void syphonServer::publishTexture(ci::gl::TextureRef inputTexture)
 {
 	if(inputTexture){
 		NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
