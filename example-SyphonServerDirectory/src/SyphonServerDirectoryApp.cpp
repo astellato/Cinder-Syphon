@@ -23,6 +23,8 @@ public:
     
 	void update();
 	void draw();
+    void setClient(int _idx);
+    void nextClient();
     
     void serverAnnounced(vector<syphonServerDescription> _servers);
     void serverRetired(vector<syphonServerDescription> _servers);
@@ -53,31 +55,36 @@ void SyphonServerDirectoryApp::setup()
     
     if(dir.size() > 0){
         dirIdx = 0;
-        client.set(dir.getDescription(dirIdx));
-        client.bind();
-        serverName = client.getServerName();
-        appName = client.getApplicationName();
-        
-        if(serverName == ""){
-            serverName = "null";
-        }
-        if(appName == ""){
-            appName = "null";
-        }
+        setClient(dirIdx);
     } else {
         dirIdx = -1;
     }
 }
 
+void SyphonServerDirectoryApp::setClient(int _idx){
+    syphonServerDescription desc = dir.getDescription(_idx);
+    client.set(desc);
+    client.bind();
+    serverName = desc.serverName;
+    appName = desc.appName;
+    
+    if(serverName == ""){
+        serverName = "null";
+    }
+    if(appName == ""){
+        appName = "null";
+    }
+}
+
 void SyphonServerDirectoryApp::serverAnnounced(vector<syphonServerDescription> _servers){
     for( auto& dir : _servers){
-        console()<<"SyphonServerDirectory Server Announced\nServer Name: "<<dir.serverName<<" | AppName: "<<dir.appName<<"\n";
+        console()<<"SyphonServerDirectory Server Announced::ServerName: "<<dir.serverName<<" | AppName: "<<dir.appName<<"\n";
     }
 }
 
 void SyphonServerDirectoryApp::serverRetired(vector<syphonServerDescription> _servers){
     for( auto& dir : _servers){
-        console()<<"SyphonServerDirectory Server Retired\nServer Name: "<<dir.serverName<<" | AppName: "<<dir.appName<<"\n";
+        console()<<"SyphonServerDirectory Server Retired::ServerName: "<<dir.serverName<<" | AppName: "<<dir.appName<<"\n";
     }
 }
 
@@ -109,6 +116,16 @@ void SyphonServerDirectoryApp::resize()
 	//
 }
 
+void SyphonServerDirectoryApp::nextClient(){
+    //press any key to move through all available Syphon servers
+    dirIdx++;
+    if(dirIdx > dir.size() - 1){
+        dirIdx = 0;
+    }
+    
+    setClient(dirIdx);
+}
+
 void SyphonServerDirectoryApp::keyDown( KeyEvent event )
 {
 	switch( event.getCode() )
@@ -117,33 +134,29 @@ void SyphonServerDirectoryApp::keyDown( KeyEvent event )
             quit();
             break;
         case KeyEvent::KEY_f:
-            setFullScreen( !isFullScreen() );
+            //setFullScreen( !isFullScreen() );
             break;
         case KeyEvent::KEY_v:
             gl::enableVerticalSync( !gl::isVerticalSyncEnabled() );
+            break;
+        case KeyEvent::KEY_d:
+        {
+            syphonServerDescription server = dir.getDescription(dirIdx);
+            console()<<"serverName: "<<server.serverName<<" appName: "<<server.appName<<"\ndirIdx: "<<dirIdx<<"\n";
+        }
+            break;
+        case KeyEvent::KEY_p:
+            dir.printList();
+            break;
+        default:
+            nextClient();
             break;
     }
 }
 
 void SyphonServerDirectoryApp::keyUp( KeyEvent event )
 {
-    //press any key to move through all available Syphon servers
-    dirIdx++;
-    if(dirIdx > dir.size() - 1){
-        dirIdx = 0;
-    }
     
-    client.set(dir.getDescription(dirIdx));
-    client.bind();
-    serverName = client.getServerName();
-    appName = client.getApplicationName();
-    
-    if(serverName == ""){
-        serverName = "null";
-    }
-    if(appName == ""){
-        appName = "null";
-    }
     
     
 }

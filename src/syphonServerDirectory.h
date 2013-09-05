@@ -50,6 +50,7 @@ public:
     syphonServerDescription& getDescription(int _idx);
     
     std::vector<syphonServerDescription>& getServerList();
+    void printList();
 	SyphonServerAnnouncedSignal* getServerAnnouncedSignal();
     SyphonServerUpdatedSignal* getServerUpdatedSignal();
     SyphonServerRetiredSignal* getServerRetiredSignal();

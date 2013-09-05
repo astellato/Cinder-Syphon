@@ -66,8 +66,21 @@ void syphonClient::set(syphonServerDescription _server){
 }
 
 void syphonClient::set(std::string _serverName, std::string _appName){
-    setApplicationName(_appName);
-    setServerName(_serverName);
+    if(bSetup)
+    {
+        NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
+        
+        NSString *nsAppName = [NSString stringWithCString:_appName.c_str() encoding:[NSString defaultCStringEncoding]];
+        NSString *nsServerName = [NSString stringWithCString:_serverName.c_str() encoding:[NSString defaultCStringEncoding]];
+        
+        [(SyphonNameboundClient*)mClient setAppName:nsAppName];
+        [(SyphonNameboundClient*)mClient setName:nsServerName];
+        
+        appName = _appName;
+        serverName = _serverName;
+        
+        [pool drain];
+    }
 }
 
 void syphonClient::setApplicationName(std::string _appName)

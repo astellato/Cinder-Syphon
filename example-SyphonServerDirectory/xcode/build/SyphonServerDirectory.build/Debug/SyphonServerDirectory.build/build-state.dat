@@ -4,14 +4,14 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/Info.plist Info.plist
 cCpResource ../resources/CinderApp.icns ./build/Debug/SyphonServerDirectory.app/Contents/Resources/CinderApp.icns
-cProcessPCH /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-ddgmnedldfohsdaoywlepvkzcciw/SyphonServerDirectory_Prefix.pch.pth SyphonServerDirectory_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH++ /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-gkrigwjwjzqjcbarjwdudbrremyz/SyphonServerDirectory_Prefix.pch.pth SyphonServerDirectory_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH++ /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-cbmkctmykoootqdtddgbibjidvgi/SyphonServerDirectory_Prefix.pch.pth SyphonServerDirectory_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-ddgmnedldfohsdaoywlepvkzcciw/SyphonServerDirectory_Prefix.pch.pth SyphonServerDirectory_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonNameboundClient.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib/SyphonNameboundClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServer.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServer.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory normal i386
 cPBXCp ../../lib/Syphon.framework ./build/Debug/SyphonServerDirectory.app/Contents/Frameworks/Syphon.framework
 cTouch /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app
@@ -3821,6 +3821,16 @@ c000000005171C14600000000000038D3
 t1366409542
 s14547
 
+N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/Cinder.h
+c000000005171C1460000000000000CEB
+t1366409542
+s3307
+
+N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/CinderMath.h
+c000000005171C1460000000000001F9E
+t1366409542
+s8094
+
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/Color.h
 c000000005171C14600000000000035A1
 t1366409542
@@ -3866,6 +3876,11 @@ c000000005171C1460000000000002D7E
 t1366409542
 s11646
 
+N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/Matrix.h
+c000000005171C1460000000000000EDD
+t1366409542
+s3805
+
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/Matrix22.h
 c000000005171C1470000000000003E52
 t1366409543
@@ -3900,6 +3915,11 @@ N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/
 c000000005171C1470000000000000EDA
 t1366409543
 s3802
+
+N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/Quaternion.h
+c000000005171C1470000000000005499
+t1366409543
+s21657
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/Ray.h
 c000000005171C1470000000000000AA0
@@ -3941,10 +3961,20 @@ c000000005171C14700000000000017F7
 t1366409543
 s6135
 
+N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/Vector.h
+c000000005171C147000000000000AD7C
+t1366409543
+s44412
+
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/app/App.h
 c000000005171C1470000000000008B1F
 t1366409543
 s35615
+
+N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/app/AppBasic.h
+c000000005171C1470000000000002262
+t1366409543
+s8802
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/app/AppNative.h
 c000000005171C1470000000000000876
@@ -3995,6 +4025,11 @@ N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/
 c000000005171C1480000000000004B66
 t1366409544
 s19302
+
+N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../../../include/cinder/gl/gl.h
+c000000005171C1480000000000006469
+t1366409544
+s25705
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../README
 c00000000522672C600000000000007CB
@@ -4382,14 +4417,14 @@ t1378257295
 s1552
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.h
-c000000005226921B0000000000000934
-t1378259483
-s2356
+c000000005227D96F000000000000093A
+t1378343279
+s2362
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mm
-c0000000052269265000000000000132B
-t1378259557
-s4907
+c000000005227E14E0000000000001536
+t1378345294
+s5430
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServer.h
 c0000000052267A9B00000000000006C8
@@ -4402,14 +4437,14 @@ t1378253500
 s3341
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.h
-c0000000052269AE7000000000000091E
-t1378261735
-s2334
+c000000005227D9900000000000000934
+t1378343312
+s2356
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm
-c0000000052269BD50000000000001A15
-t1378261973
-s6677
+c000000005227D9DB0000000000001ADE
+t1378343387
+s6878
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../resources/CinderApp.icns
 c0000000052268D090000000000070375
@@ -4417,12 +4452,12 @@ t1378258185
 s459637
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp
-c0000000052269BF80000000000001080
-t1378262008
-s4224
+c000000005227DBCA00000000000011BA
+t1378343882
+s4538
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app
-t1378261944
+t1378345464
 s102
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/Frameworks/Syphon.framework
@@ -4434,8 +4469,8 @@ t1378259180
 s1264
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory
-t1378261944
-s3415488
+t1378345464
+s3413764
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/PkgInfo
 t1378259180
@@ -4615,16 +4650,16 @@ t2
 s0
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o
-t1378261849
-s3006516
+t1378343886
+s3002472
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient-3E6C55D058CE658F.o
 t2
 s0
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.o
-t1378261751
-s343804
+t1378345464
+s345628
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServer-2F6F1424BBBE8591.o
 t2
@@ -4639,8 +4674,8 @@ t2
 s0
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o
-t1378261943
-s1702388
+t1378343391
+s3276860
 
 N/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/SyphonServerDirectory_Prefix.pch
 c0000000052268D09000000000000012D
@@ -4734,7 +4769,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesefe2dd7ad3d6b741^0514de7ad3d6b741^---0#1#0#--18"Check dependencies36"D8084B89-7D92-45BC-AFE0-7854055C00C3-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf5bb448b19d8b741^3aea448b19d8b741^---0#1#0#--18"Check dependencies36"9547E189-A588-44BB-A049-D1E53651D71C-
 
 CCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/Syphon-BasicApp-119F99FEA5BF53AD.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../example-Basic/src/Syphon-BasicApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -4759,8 +4794,8 @@ CCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/
 r0
 
 CCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s399954810.912387
-e399954812.746731
+s400036684.469415
+e400036686.028128
 r1
 xCompileC
 x./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o
@@ -4769,14 +4804,14 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Compile /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp69a8e97ad3d6b741^492abf7cd3d6b741^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp0000000000000000^4273"CompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o ../src/SyphonServerDirectoryApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-generated-files.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-own-target-headers.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-all-target-headers.hmap -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-project-headers.hmap -iquote../../../../include -iquote../include -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug/include -I../../../../boost -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources/i386 -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib -include /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-gkrigwjwjzqjcbarjwdudbrremyz/SyphonServerDirectory_Prefix.pch -MMD -MT dependencies -MF /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.d --serialize-diagnostics /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.dia -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp -o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o36"F4D672C9-2F74-497A-9338-F2FDF91BFA9B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Compile /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp7442784c13d8b741^2233074e13d8b741^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp0000000000000000^4273"CompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o ../src/SyphonServerDirectoryApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-generated-files.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-own-target-headers.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-all-target-headers.hmap -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-project-headers.hmap -iquote../../../../include -iquote../include -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug/include -I../../../../boost -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources/i386 -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib -include /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-gkrigwjwjzqjcbarjwdudbrremyz/SyphonServerDirectory_Prefix.pch -MMD -MT dependencies -MF /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.d --serialize-diagnostics /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.dia -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp -o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectoryApp.o36"1B1DCABC-DB4F-48F9-ABF3-83DB82F38A18-
 
 CCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient-3E6C55D058CE658F.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
 
 CCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s399954550.667117
-e399954551.711906
+s400038263.326750
+e400038264.266613
 r1
 xCompileC
 x./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.o
@@ -4785,7 +4820,7 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mmf8e3aa76d2d6b741^3a3eb677d2d6b741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mm0000000000000000^4388"CompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.o ../../src/syphonClient.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-generated-files.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-own-target-headers.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-all-target-headers.hmap -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-project-headers.hmap -iquote../../../../include -iquote../include -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug/include -I../../../../boost -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources/i386 -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib -include /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-cbmkctmykoootqdtddgbibjidvgi/SyphonServerDirectory_Prefix.pch -MMD -MT dependencies -MF /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.d --serialize-diagnostics /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.dia -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mm -o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.o36"8EA8FACA-0507-4ABE-B7E5-22E917A19A27-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mme0bd537719d8b741^3a40447819d8b741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mm0000000000000000^4388"CompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.o ../../src/syphonClient.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-generated-files.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-own-target-headers.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-all-target-headers.hmap -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-project-headers.hmap -iquote../../../../include -iquote../include -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug/include -I../../../../boost -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources/i386 -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib -include /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-cbmkctmykoootqdtddgbibjidvgi/SyphonServerDirectory_Prefix.pch -MMD -MT dependencies -MF /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.d --serialize-diagnostics /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.dia -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.mm -o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonClient.o36"3D68BF14-97F3-47EB-91E0-F21E60371C6D-
 
 CCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServer-2F6F1424BBBE8591.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServer.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -4807,8 +4842,8 @@ CCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/
 r0
 
 CCompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s399954810.913576
-e399954812.423563
+s400036189.706471
+e400036191.272256
 r1
 xCompileC
 x./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o
@@ -4817,7 +4852,7 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Compile /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm98fae97ad3d6b741^c16e6c7cd3d6b741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm0000000000000000^4442"CompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o ../../src/syphonServerDirectory.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-generated-files.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-own-target-headers.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-all-target-headers.hmap -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-project-headers.hmap -iquote../../../../include -iquote../include -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug/include -I../../../../boost -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources/i386 -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib -include /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-cbmkctmykoootqdtddgbibjidvgi/SyphonServerDirectory_Prefix.pch -MMD -MT dependencies -MF /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.d --serialize-diagnostics /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.dia -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm -o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o36"0FF03E50-ECAB-4F3A-BB69-2CC0FDE58FC1-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Compile /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm51f8b45d11d8b741^5fb2455f11d8b741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm0000000000000000^4442"CompileC ./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o ../../src/syphonServerDirectory.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-generated-files.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-own-target-headers.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-all-target-headers.hmap -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-project-headers.hmap -iquote../../../../include -iquote../include -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug/include -I../../../../boost -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources/i386 -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib -include /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-cbmkctmykoootqdtddgbibjidvgi/SyphonServerDirectory_Prefix.pch -MMD -MT dependencies -MF /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.d --serialize-diagnostics /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.dia -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonServerDirectory.mm -o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/syphonServerDirectory.o36"1C14EA37-A8E5-43C2-A05D-FED0DFB95D15-
 
 CCompileDTraceScript ../../example-Basic/xcode/build/Syphon-BasicExample.build/Debug/Syphon-BasicExample.build/Objects-normal/i386/Syphon-BasicApp.d
 r0
@@ -4997,14 +5032,14 @@ x./build/Debug/SyphonServerDirectory.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy ./build/Debug/SyphonServerDirectory.app/Contents/Resources/CinderApp.icns0935236cc8d6b741^92cf236cc8d6b741^---0#0#0#-19%DVTDocumentLocation2@204"file://localhost/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/Resources/CinderApp.icns000000000080d041^664"CpResource ../resources/CinderApp.icns ./build/Debug/SyphonServerDirectory.app/Contents/Resources/CinderApp.icns    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../resources/CinderApp.icns /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/Resources36"040294B2-2220-4495-8F08-E101F7D5D9C9-
 
 CLd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory normal i386
-s399954812.753524
-e399954813.305308
+s400038264.272940
+e400038264.829092
 r1
 xLd
 x/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"Link /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectorycff6c07cd3d6b741^dd284e7dd3d6b741^---0#0#0#--1586"Ld ./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory normal i386    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib -filelist /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectory.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../lib/libcinder_d.a -stdlib=libc++ -fobjc-link-runtime -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework Syphon -o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory36"99A0F00C-BAFD-4CD4-941C-6D06EC7951FF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"Link /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory02f2457819d8b741^4641d47819d8b741^---0#0#0#--1586"Ld ./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory normal i386    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib -filelist /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/Objects-normal/i386/SyphonServerDirectory.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../lib/libcinder_d.a -stdlib=libc++ -fobjc-link-runtime -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework Syphon -o /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app/Contents/MacOS/SyphonServerDirectory36"87EF4F38-E7F8-4012-B52F-439F61969937-
 
 CPBXCp ../../lib/Syphon.framework ./build/Debug/SyphonServerDirectory.app/Contents/Frameworks/Syphon.framework
 s399952438.456581
@@ -5079,10 +5114,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile SyphonServerDirectory_Prefix.pchf73c276cc8d6b741^50c3476fc8d6b741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/SyphonServerDirectory_Prefix.pch0000000000000000^4023"ProcessPCH++ /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-gkrigwjwjzqjcbarjwdudbrremyz/SyphonServerDirectory_Prefix.pch.pth SyphonServerDirectory_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-generated-files.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-own-target-headers.hmap -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-all-target-headers.hmap -iquote /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/SyphonServerDirectory-project-headers.hmap -iquote../../../../include -iquote../include -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug/include -I../../../../boost -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources/i386 -I/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/SyphonServerDirectory.build/Debug/SyphonServerDirectory.build/DerivedSources -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/build/Debug -F/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../lib --serialize-diagnostics /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-gkrigwjwjzqjcbarjwdudbrremyz/SyphonServerDirectory_Prefix.pch.dia -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/SyphonServerDirectory_Prefix.pch -o /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-gkrigwjwjzqjcbarjwdudbrremyz/SyphonServerDirectory_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/3z/18r1p7zn1x74lqpkv377thpc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SyphonServerDirectory_Prefix-gkrigwjwjzqjcbarjwdudbrremyz/SyphonServerDirectory_Prefix.pch.d36"946848B8-10CA-48CF-97C9-EB04CDFD02F8-
 
 CTouch /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app
-s399954813.322091
-e399954813.327188
+s400038264.845459
+e400038264.850516
 r1
 xTouch
 x/Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Touch /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app0684527dd3d6b741^0fed537dd3d6b741^---0#0#0#--345"Touch ./build/Debug/SyphonServerDirectory.app    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    /usr/bin/touch -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app36"A28327C9-7FD0-43E3-9513-476314E0735F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Touch /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app527cd87819d8b741^5abbd97819d8b741^---0#0#0#--345"Touch ./build/Debug/SyphonServerDirectory.app    cd /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode    /usr/bin/touch -c /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/./build/Debug/SyphonServerDirectory.app36"95E3AC8D-9652-45A6-96CB-F8B20FAB9399-
 

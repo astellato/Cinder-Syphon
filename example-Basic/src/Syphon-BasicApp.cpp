@@ -95,14 +95,15 @@ void SyphonBasicApp::setup()
 	
 	mAngle = 0.0f;
 	
-	mScreenSyphon.setName("Cinder Window"); // set a name for each item to be published
-	mTextureSyphon.setName("Cinder Texture");
+	mScreenSyphon.setName("Screen Output"); // set a name for each item to be published
+	mTextureSyphon.setName("Texture Output");
 	
 	mClientSyphon.setup();
     
 	// in order for this to work, you must run simple server which is a syphon test application
     // feel free to change the app and server name for your specific case
-    mClientSyphon.set("Simple Server", "");
+    mClientSyphon.set("", "Simple Server");
+    
     mClientSyphon.bind();
 }
 

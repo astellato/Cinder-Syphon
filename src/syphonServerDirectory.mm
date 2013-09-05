@@ -35,7 +35,7 @@ void syphonServerDirectory::setup(){
     if(!bSetup){
         bSetup = true;
         addObservers();
-        //don't have to do this in OF.  Not sure what's different in Cinder.
+        //don't have to do this in OF.  Not sure what's different in the Cinder implementation, but this works.
         refresh(true);
     }
 }
@@ -62,7 +62,7 @@ void syphonServerDirectory::refresh(bool isAnnounce){
                 syphonServerDescription sy = syphonServerDescription(std::string([name UTF8String]),std::string([appName UTF8String]));
                 serverList.push_back(sy);
                 eventArgs.push_back(sy);
-                //std::cout<<"Adding server: "<<std::string([name UTF8String])<<" appName: "<< std::string([appName UTF8String])<<"\n";
+                std::cout<<"Adding server: "<<std::string([name UTF8String])<<" appName: "<< std::string([appName UTF8String])<<"\n";
             }
         } else {
             eventArgs.push_back(syphonServerDescription(std::string([name UTF8String]),std::string([appName UTF8String])));
@@ -76,7 +76,7 @@ void syphonServerDirectory::refresh(bool isAnnounce){
         for(std::vector<syphonServerDescription>::iterator it = serverList.begin(); it != serverList.end(); ++it){
             if(std::find(foundServers.begin(), foundServers.end(), syphonServerDescription(it->serverName, it->appName)) == foundServers.end()){
                 eventArgs.push_back(syphonServerDescription(it->serverName, it->appName));
-                //std::cout<<"Removing server: "<<it->serverName<<" appName: "<<it->appName<<"\n";
+                std::cout<<"Removing server: "<<it->serverName<<" appName: "<<it->appName<<"\n";
             }
         }
         serverList = foundServers;
@@ -109,6 +109,12 @@ syphonServerDescription& syphonServerDirectory::getDescription(int _idx){
 
 std::vector<syphonServerDescription>& syphonServerDirectory::getServerList(){
     return serverList;
+}
+
+void syphonServerDirectory::printList(){
+    for(auto& s : serverList){
+        ci::app::console()<<"serverName: "<<s.serverName<<" appName: "<<s.appName<<"\n";
+    }
 }
 
 int syphonServerDirectory::size(){

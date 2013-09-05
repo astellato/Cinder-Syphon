@@ -53,7 +53,7 @@ class syphonClient {
 	void draw(ci::Vec2f origin);
     void draw(float x, float y, float w, float h);
     void draw(float x, float y);
-    //draw with bounds
+    //TODO: draw with bounds
     
     int getWidth();
     int getHeight();
