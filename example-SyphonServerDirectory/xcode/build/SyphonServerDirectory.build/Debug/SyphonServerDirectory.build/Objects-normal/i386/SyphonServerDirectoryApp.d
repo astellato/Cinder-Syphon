@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../src/SyphonServerDirectoryApp.cpp \
+  /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/src/SyphonServerDirectoryApp.cpp \
   ../../../../include/cinder/app/AppNative.h \
   /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/cinderSyphon.h \
   /Users/astellato/Sync/Development/Cinder/cinder_0.8.5_mac/blocks/Cinder-Syphon/example-SyphonServerDirectory/xcode/../../src/syphonClient.h \

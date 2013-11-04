@@ -62,17 +62,19 @@ void SyphonServerDirectoryApp::setup()
 }
 
 void SyphonServerDirectoryApp::setClient(int _idx){
-    syphonServerDescription desc = dir.getDescription(_idx);
-    client.set(desc);
-    client.bind();
-    serverName = desc.serverName;
-    appName = desc.appName;
-    
-    if(serverName == ""){
-        serverName = "null";
-    }
-    if(appName == ""){
-        appName = "null";
+    if(dir.isValidIndex(_idx)){
+        syphonServerDescription desc = dir.getDescription(_idx);
+        client.set(desc);
+        client.bind();
+        serverName = desc.serverName;
+        appName = desc.appName;
+        
+        if(serverName == ""){
+            serverName = "null";
+        }
+        if(appName == ""){
+            appName = "null";
+        }
     }
 }
 
