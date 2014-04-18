@@ -40,6 +40,7 @@ class syphonServer {
 	std::string getName();
 	void publishScreen();
     void publishTexture(ci::gl::TextureRef inputTexture);
+    void publishTexture(ci::gl::Texture &inputTexture);
 	
     
 protected:
